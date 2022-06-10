@@ -69,4 +69,17 @@ expo install react-native-gesture-handler react-native-reanimated @react-native-
 yarn add @react-navigation/native-stack
 may have to do - yarn add -D @types/react or yarn add --dev @types/react@~17.0.21
 
+Google stuff
+yarn add react-native-google-places-autocomplete
+
+yarn add react-native-dotenv
+yarn add react-native-maps
+expo install react-native-maps
+
+
+GCP - 
+ReactNativeDeliveryCustomerApp
+Project ID: reactnativedeliverycustomerapp
+AIzaSyAMfzKCA1ShSXFQLjb-LEaXVyEVMClHtn8
+
 */
