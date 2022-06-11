@@ -62,9 +62,3 @@ export default HomeScreen;
 const styles = StyleSheet.create({
 	text: {},
 });
-
-{
-	/* <Text style={[tw`text-red-500 p-10`, styles.text]}>
-this is the homescreen
-</Text> */
-}

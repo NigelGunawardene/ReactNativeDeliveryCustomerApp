@@ -39,19 +39,19 @@ const NavOptions = () => {
 			data={data}
 			keyExtractor={(item) => item.id}
 			horizontal
-			renderItem={({ item }) => (
+			renderItem={({ item: { screen, image, title } }) => (
 				<TouchableOpacity
-					onPress={() => navigation.navigate(item.screen)}
+					onPress={() => navigation.navigate(screen)}
 					style={tw`p-2 pl-6 pb-8 pt-4 bg-gray-200 m-2 w-40`}
 					disabled={!origin}>
 					<View style={tw`${!origin && 'opacity-20'}`}>
 						<Image
 							style={{ width: 120, height: 120, resizeMode: 'contain' }}
 							source={{
-								uri: item.image,
+								uri: image,
 							}}
 						/>
-						<Text style={tw`mt-2 text-lg font-semibold`}>{item.title}</Text>
+						<Text style={tw`mt-2 text-lg font-semibold`}>{title}</Text>
 						<Icon
 							style={tw`p-2 bg-black rounded-full w-10 mt-4`}
 							name='arrowright'
