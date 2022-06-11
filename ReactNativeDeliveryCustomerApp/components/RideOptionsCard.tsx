@@ -12,6 +12,8 @@ import { useNavigation } from '@react-navigation/native';
 import { FlatList } from 'react-native-gesture-handler';
 import { useSelector } from 'react-redux';
 import { selectTravelTimeInformation } from '../slices/navSlice';
+import 'intl';
+import 'intl/locale-data/jsonp/en';
 
 const SURGE_CHARGE_RATE = 1.5;
 const data = [

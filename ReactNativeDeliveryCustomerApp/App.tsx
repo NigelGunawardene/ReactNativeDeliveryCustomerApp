@@ -84,6 +84,9 @@ yarn add react-native-maps-directions
 
 
 
+yarn add intl
+
+
 GCP - 
 ReactNativeDeliveryCustomerApp
 Project ID: reactnativedeliverycustomerapp
