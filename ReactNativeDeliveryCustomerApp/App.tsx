@@ -8,6 +8,7 @@ import { SafeAreaProvider } from 'react-native-safe-area-context';
 import 'react-native-gesture-handler';
 import { NavigationContainer, StackActions } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import TestScreen from './screens/TestScreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -33,6 +34,13 @@ export default function App() {
 								component={MapScreen}
 								options={{
 									headerShown: false,
+								}}
+							/>
+							<Stack.Screen
+								name='TestScreen'
+								component={TestScreen}
+								options={{
+									headerShown: true,
 								}}
 							/>
 						</Stack.Navigator>
@@ -81,6 +89,7 @@ yarn add react-native-dotenv
 yarn add react-native-maps
 expo install react-native-maps
 yarn add react-native-maps-directions
+
 
 
 

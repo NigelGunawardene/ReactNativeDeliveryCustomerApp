@@ -26,7 +26,7 @@ const data = [
 		id: '2',
 		title: 'Order food',
 		image: 'https://links.papareact.com/28w',
-		screen: 'MapScreen',
+		screen: 'TestScreen',
 	},
 ];
 
