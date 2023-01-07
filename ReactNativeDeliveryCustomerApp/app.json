@@ -21,6 +21,11 @@
       "supportsTablet": true
     },
     "android": {
+      "config": {
+        "googleMaps": {
+          "apiKey": ""
+        }
+      },
       "package": "com.aqueel.demo",
       "versionCode": 1,
       "adaptiveIcon": {
